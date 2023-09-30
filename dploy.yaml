@@ -1,0 +1,8 @@
+model_id: d36795f9-0376-4a4a-bc05-0fb964ee229b
+spec_version: v2
+spec:
+  environment:
+    base: python:3.7
+    entrypoint: scripts/predict.ipynb
+    requirements: ["requirements.txt"]
+  replicas: 1
